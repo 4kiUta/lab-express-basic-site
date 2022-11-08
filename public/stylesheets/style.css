@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(179, 177, 177);
+}
+
+nav {
+    align-items: center;
+    width: 300px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 14px;
+    padding: 0;
+}
+
+ul > li > a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+ul > li > a:hover{
+    list-style: none;
+    text-decoration: none;
+    color: red;
+}
+
+h1 {
+    text-align: center;
+    margin: 0px;
+}
+
+
+header > div {
+    padding: 18px 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.blackKnights {
+    width: 40px;
+}
+
+#who {
+    display: flex;
+    align-items: center;
+    
+}
+
+div > span {
+    margin-left: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.searching .form {
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    margin-left: 10px;
+}
+.searching input {
+    width: 920px;
+    border: none;
+    color: rgba(0,0,0,.05);
+    font-size: 18px;
+    background-color: rgba(247, 233, 233, 0.703);
+}
+
+.zero {
+    height: 300px;
+}
